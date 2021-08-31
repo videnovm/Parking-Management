@@ -11,6 +11,8 @@ public class VehicleDto {
 
     private Long id;
 
+    private String vehicleType;
+
     private String licensePlate;
 
     private Long userId;

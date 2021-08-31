@@ -18,6 +18,9 @@ public class Vehicle {
     @SequenceGenerator(name="parkingSeqGenVehicle", sequenceName = "parking_sequence_vehicles", allocationSize = 1 )
     private Long id;
 
+    @Column(nullable=false)
+    private String vehicleType;
+
     @Column(nullable=false, unique = true)
     private String licensePlate;
 
