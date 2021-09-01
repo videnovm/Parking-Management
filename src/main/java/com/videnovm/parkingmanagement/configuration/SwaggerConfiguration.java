@@ -17,8 +17,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfiguration implements WebMvcConfigurer {
     private ApiInfo initApiInfo(){
         return new ApiInfoBuilder()
-                .title("Parking Management Backend API")
-                .description("Milosh Videnov")
+                .title("Parking Management System backend API")
+                .description("Videnov Milosh")
                 .version("1.0")
                 .build();
     }
